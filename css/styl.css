@@ -1,0 +1,18 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box:
+}
+
+.carousel-container{
+	width: 60%;
+	margin: auto;
+	border: 5px solid black;
+	max-height: 500px;
+}
+
+.carousel-slide{
+	display: flex;
+	max-width: 60px;
+	max-height: 500px;
+}
