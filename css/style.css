@@ -63,6 +63,43 @@ body, html {
 	position: relative;
 }
 
+.mask {
+	display: none;
+	background-color: rgba(255,255,255,0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 80px;
+}
+
+.close-gallery {
+	position: fixed;
+	top: 40px;
+	right: 40px;
+}
+
+.swiper-container {
+	visibility: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+.swiper-slide {
+	text-align: center;
+}
+
+.swiper-slide img {
+	max-height: 100%;
+	width: auto;
+}
+
+.visible {
+	visibility: visible;
+	display: block;
+}
+
 .text-box {
 	max-width: 30vw;
 	max-height: 22vh;
