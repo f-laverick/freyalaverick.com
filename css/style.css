@@ -82,6 +82,7 @@ body, html {
 
 .swiper-container {
 	visibility: hidden;
+	display: none;
       width: 100%;
       height: 100%;
     }
@@ -277,6 +278,7 @@ body, html {
 }
 
 .card_image {
+	height: 172px;
 	width: 100%;
 	display: block;
 }
