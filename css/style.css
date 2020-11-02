@@ -339,18 +339,3 @@ body, html {
   padding: 14px 0px 14px 0px;
 }
 
-.newbut {
-	display: block;
-	background-color: #ccc;
-	padding: 14px 28px;
-	font-size: 16px;
-	cursor: pointer;
-  	text-align: center;
-  	margin: auto;
-  	text-decoration: none;
-}
-
-.newbutwrap {
- 	padding: 20px 60px;
- 	float: right;
-}
