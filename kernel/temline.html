@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    
+    
+
+
+    <style>
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Regular.woff') format('woff2'),
+         url('./fonts/MinionPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a.date{
+  text-decoration: none;
+  color: #03827f;
+  text-shadow: 1px 1px 1px #fff;
+
+}
+
+.timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.timeline__content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: 'MinionPro-Regular';
+  color: #fff;
+}
+.timeline__content-desc {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'MinionPro-Regular';
+  font-weight: normal;
+  line-height: 25px;
+}
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background: rgba(255, 255, 255, .07);
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
+}
+.timeline-item {
+  padding: 40px 0;
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.timeline-item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(255, 255, 255, .5);
+  font-size: 30px;
+  font-family: 'MinionPro-Regular';
+  border-left: 2px solid rgba(255, 255, 255, .5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+}
+.timeline-item:nth-child(even) {
+  align-self: flex-end;
+}
+.timeline-item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(255, 255, 255, .5);
+  padding-right: 15px;
+}
+.timeline-item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.timeline-item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.timeline-item--active .timeline__content-title {
+  margin: -50px 0 20px 0;
+}
+@media only screen and (max-width: 767px) {
+  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 40px;
+  }
+}
+.timeline__img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+}
+.timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.timeline-container:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(0,0,0,0.6);
+  content: "";
+}
+.timeline-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.timeline-header__title {
+  color: #fff;
+  font-size: 58px;
+  font-family: 'MinionPro-Regular';
+  font-weight: normal;
+  margin: 0;
+}
+
+.demo-footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.demo-footer a {
+  color: #999;
+  display: inline-block;
+  font-family: MinionPro-Regular;
+}
+
+#titlebig {
+  text-decoration: none;
+  color: #FFF;
+}
+
+    </style>
+</head>
+<body>
+     <div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title"><a href="index.html" id="titlebig">KERNEL</a></h2>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="Heaven's Gate">
+      <div class="timeline__content"><img class="timeline__img" src="images/heavensgate.jpg" />
+        <h2 class="timeline__content-title"><a href="film1.html" class="date">1980</a></h2>
+        <p class="timeline__content-desc">Harvard graduate James Averill is the sheriff of prosperous Jackson County. The ranch owners fight the immigrants with the help of Nathan Champion, a mercenary competing with Averill for the love of local madam Ella Watson. As the struggle escalates, Averill and Champion begin to question their decisions.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Malina">
+      <div class="timeline__content"><img class="timeline__img" src="images/malina.jpg"/>
+        <h2 class="timeline__content-title"><a href="film2.html" class="date">1991</a></h2>
+        <p class="timeline__content-desc">A writer is thrown into a turmoil as she tries to decide between her husband and her lover.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Amateur">
+      <div class="timeline__content"><img class="timeline__img" src="images/amateur.jpg"/>
+        <h2 class="timeline__content-title"><a href="film3.html" class="date">1994</a></h2>
+        <p class="timeline__content-desc">A former nun, Isabelle, helps an amnesiac, Thomas, uncover his criminal past in upstate New York.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="La Ceremonie">
+      <div class="timeline__content"><img class="timeline__img" src="images/laceremonie.jpg"/>
+        <h2 class="timeline__content-title"><a href="film4.html" class="date">1995</a></h2>
+        <p class="timeline__content-desc">A wealthy family's new housemaid, Sophie, befriends a mercurial postmistress, Jeanne, with dire consequences.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="The Piano Teacher">
+      <div class="timeline__content"><img class="timeline__img" src="images/pianoteacher.jpg"/>
+        <h2 class="timeline__content-title"><a href="film4.html" class="date">2001</a></h2>
+        <p class="timeline__content-desc">A young man romantically pursues his masochistic piano teacher.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="8 Women">
+      <div class="timeline__content"><img class="timeline__img" src="images/8women.jpg"/>
+        <h2 class="timeline__content-title"><a href="film4.html" class="date">2002</a></h2>
+        <p class="timeline__content-desc">At an isolated mansion in the snowy countryside of 1950s France, a family is gathered for the holiday season. But there will be no celebration -- their beloved patriarch has been murdered! The killer can only be one of the eight women closest to the man of the house.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="White Material">
+      <div class="timeline__content"><img class="timeline__img" src="images/whitematerial.png"/>
+        <h2 class="timeline__content-title"><a href="film4.html" class="date">2009</a></h2>
+        <p class="timeline__content-desc">Amidst turmoil and racial conflict in a Francophone African state, a white French woman fights for her coffee crop, her family and ultimately for her life.</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Elle">
+      <div class="timeline__content"><img class="timeline__img" src="images/elle.jpg"/>
+        <h2 class="timeline__content-title"><a href="film4.html" class="date">2016</a></h2>
+        <p class="timeline__content-desc">
+          Adapted from the novel 'Oh...' by Philippe Djian, Elle tells the story of Michele, successful businesswoman who gets caught up in a game of cat and mouse as she tracks down the unknown man who attacked her in her own home.
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Mama Weed">
+      <div class="timeline__content"><img class="timeline__img" src="images/mamaweed.jpg"/>
+        <h2 class="timeline__content-title"><a href="film9.html" class="date">2020</a></h2>
+        <p class="timeline__content-desc">At the end of August 1922, the Turkish armieswon their ultimate victory. Within a few weeks, the Turkish mainland was completelyliberated, the armistice signed, and the rule of the Ottoman dynasty abolished</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script>
+    
+    (function($) {
+  $.fn.timeline = function() {
+    var selectors = {
+      id: $(this),
+      item: $(this).find(".timeline-item"),
+      activeClass: "timeline-item--active",
+      img: ".timeline__img"
+    };
+    selectors.item.eq(0).addClass(selectors.activeClass);
+    selectors.id.css(
+      "background-image",
+      "url(" +
+        selectors.item
+          .first()
+          .find(selectors.img)
+          .attr("src") +
+        ")"
+    );
+    var itemLength = selectors.item.length;
+    $(window).scroll(function() {
+      var max, min;
+      var pos = $(this).scrollTop();
+      selectors.item.each(function(i) {
+        min = $(this).offset().top;
+        max = $(this).height() + $(this).offset().top;
+        var that = $(this);
+        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+          selectors.item.removeClass(selectors.activeClass);
+          selectors.id.css(
+            "background-image",
+            "url(" +
+              selectors.item
+                .last()
+                .find(selectors.img)
+                .attr("src") +
+              ")"
+          );
+          selectors.item.last().addClass(selectors.activeClass);
+        } else if (pos <= max - 40 && pos >= min) {
+          selectors.id.css(
+            "background-image",
+            "url(" +
+              $(this)
+                .find(selectors.img)
+                .attr("src") +
+              ")"
+          );
+          selectors.item.removeClass(selectors.activeClass);
+          $(this).addClass(selectors.activeClass);
+        }
+      });
+    });
+  };
+})(jQuery);
+
+$("#timeline-1").timeline();
+
+    </script>
+</body>
+</html>
