@@ -178,3 +178,19 @@ body, html {
 	padding-right: 10px;
 	margin-top: 8px;
 }
+
+li {
+	display: list-item;
+}
+
+.vidgal {
+	margin: 10px 50px;
+}
+
+.vidgal iframe {
+	transition: 1.5s;
+	padding: 10px;
+	max-width: 250px;
+	height: 200px;
+
+}
