@@ -138,8 +138,17 @@ body {
 
 }
 
+@font-face {
+    font-family: 'lucien';
+    src: url('Lucian-Schoenschrift-CAT-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
+p {
+  font-family: 'lucien';
+}
 
 
 
