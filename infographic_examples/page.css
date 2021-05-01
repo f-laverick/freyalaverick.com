@@ -1,0 +1,120 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  height: 100vh;
+}
+
+.image {
+  max-width: 100vw;
+}
+
+.page-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 125%;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-copy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 65% 14px 20px;
+}
+
+.container {
+  justify-self: end;
+}
+.textboxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#content {
+  padding: 100px 30px;
+}
+
+.textbox {
+    max-width: 65vw;
+    max-height: 50vh;
+    background: #fff;
+    opacity: 0.75;
+    padding: 20px;
+    font-size: 1.6rem;
+    color: #3c4b59;
+    border: 4px solid #ae0405;
+    box-sizing: border-box;
+}
+
+.textbox2a {
+    max-width: 30vw;
+    height: 250;
+    background: #fff;
+    opacity: 0.75;
+    padding: 10px;
+    font-size: 1.3rem;
+    color: #3c4b59;
+    border: 4px solid #ae0405;
+    box-sizing: border-box;
+}
+
+.textbox2b {
+    max-width: 30vw;
+    background: #fff;
+    opacity: 0.75;
+    padding: 20px;
+    font-size: 1.3rem;
+    color: #3c4b59;
+    border: 4px solid #ae0405;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'lucien';
+    src: url('LucienSchoenschriftvCAT.woff2') format('woff2'),
+        url('LucienSchoenschriftvCAT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.but {
+  box-sizing: border-box;
+  height: 7vw;
+  width: 7vw;
+  border-style: solid;
+  border-color: #ae0405;
+  border-width: 0px 7px 7px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  display: block;
+  padding: 14px 28px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.container {
+  padding: 14px 0px 14px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
