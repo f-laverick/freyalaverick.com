@@ -31,6 +31,3 @@ var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTo
 
 
 
-
-
-
