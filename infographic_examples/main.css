@@ -27,6 +27,9 @@ section {
     position: -webkit-sticky;
     width: 100%;
     top: 33.3%;
+    font-family: roboto;
+  font-size: 1.4rem;
+  line-height: 115%;
 }
 
 .button {
