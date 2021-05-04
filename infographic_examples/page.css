@@ -71,17 +71,28 @@ html, body {
 }
 
 #content {
-  padding: 100px 30px;
+  padding: 20px 30px;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1.25rem;
+  line-height: 110%;
 }
 
+#content5 {
+  padding: 20px 30px;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1.3rem;
+  line-height: 115%;
+}
 .textbox {
     max-width: 65vw;
-    height: 430;
+    height: 1200;
     background: #fff;
     opacity: 0.75;
-    padding: 20px;
+    padding-top: 10px;
     font-size: 1.6rem;
-    color: #3c4b59;
+    color: #191818;
     border: 4px solid #ae0405;
     box-sizing: border-box;
     margin: auto;
@@ -89,26 +100,31 @@ html, body {
 
 .textbox2a {
     max-width: 30vw;
-    height: 250;
+    height: 450;
     background: #fff;
     opacity: 0.75;
     padding: 10px;
-    font-size: 1.3rem;
-    color: #3c4b59;
+    font-size: 1.35rem;
+    color: #191818;
     border: 4px solid #ae0405;
     box-sizing: border-box;
+    font-family: roboto;
+    line-height: 115%
+
 }
 
 .textbox2b {
     max-width: 30vw;
-    height: 250;
+    height: 450;
     background: #fff;
     opacity: 0.75;
     padding: 10px;
-    font-size: 1.3rem;
-    color: #3c4b59;
+    font-size: 1.35rem;
+    color: #191818;
     border: 4px solid #ae0405;
     box-sizing: border-box;
+    font-family: roboto;
+    line-height: 115%
 }
 
 h1 {
@@ -116,6 +132,8 @@ h1 {
   font-size: 3.5rem;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 20px;
 }
 
 @font-face {
