@@ -161,8 +161,8 @@ h1 {
 
 @font-face {
   font-family: 'lucien';
-  src: url('LucienSchoenschriftvCAT.woff2') format('woff2'),
-    url('LucienSchoenschriftvCAT.woff') format('woff');
+  src: url('../fonts/LucienSchoenschriftvCAT.woff2') format('woff2'),
+    url('../fonts/LucienSchoenschriftvCAT.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

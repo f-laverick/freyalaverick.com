@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Shakespears Sister</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 </head>
 <body>
     <section class="container">
@@ -35,7 +37,7 @@
         <section class="container">
             <div class="content">
                 <p>
-                This song perfectly encapsulates the duo's relationship and dichotomy between themselves, as well as the contrast in tone; with Marcella singing in whistle register, giving the song an ethereal feel, and Siobhan giving a rough edged and dark performance. It is a perfect combintion of the two musical backgrounds. 
+                This song perfectly encapsulates the duo's relationship and dichotomy between themselves, as well as the contrast in tone; with Marcella singing in whistle register, giving the song an ethereal feel, and Siobhan giving a rough edged and dark performance. It is a perfect combintion of the two musical backgrounds.
                 </p>
             </div>
         </section>
@@ -43,13 +45,14 @@
     <div id="set-height"></div>
 
     <video id="v0" tabindex="0", autobuffer preload>
-        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="stay.mp4"></source>
+        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="assets/video/stay.mp4"></source>
     </video>
     <audio controls autoplay>
-      <source src="stay.mp3" type="audio/mpeg">
+      <source src="assets/audio/stay.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
-    <script src="sticky.js"></script>
+    <script type="text/javascript" src="assets/js/sticky.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script>
 
         enterView({
@@ -58,14 +61,14 @@
                 el.classList.add('entered');
             }
         })
-    
+
         var frameNumber = 0, // start video at frame 0
         // lower numbers = faster playback
-        playbackConst = 1000, 
+        playbackConst = 1000,
         // get page height from video duration
-        setHeight = document.getElementById("set-height"), 
-        // select video element         
-        vid = document.getElementById('v0'); 
+        setHeight = document.getElementById("set-height"),
+        // select video element
+        vid = document.getElementById('v0');
         // var vid = $('#v0')[0]; // jquery option
 
     // dynamically set the page height according to video length
@@ -75,14 +78,14 @@
 
 
     // Use requestAnimationFrame for smooth playback
-    function scrollPlay(){  
+    function scrollPlay(){
     var frameNumber  = window.pageYOffset/playbackConst;
     vid.currentTime  = frameNumber;
     window.requestAnimationFrame(scrollPlay);
     }
 
     window.requestAnimationFrame(scrollPlay);
-    
+
     </script>
     <div class="container">
           <a href="page5.html" class="button">

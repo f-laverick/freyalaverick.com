@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="page.css">
+    <title>Shakespears Sister</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/page.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 </head>
 
 
@@ -23,7 +24,7 @@
         <section class="container">
             <div class="content">
                 <p>
-                You're History - 1989 
+                You're History - 1989
                 </p>
             </div>
         </section>
@@ -57,10 +58,10 @@
     <div id="set-height"></div>
 
     <video id="v0" tabindex="0", autobuffer preload>
-        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="songs.mp4"></source>
+        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="assets/video/songs.mp4"></source>
     </video>
 
-    <script src="sticky.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script>
 
         enterView({
@@ -69,14 +70,14 @@
                 el.classList.add('entered');
             }
         })
-    
+
         var frameNumber = 0, // start video at frame 0
         // lower numbers = faster playback
-        playbackConst = 1000, 
+        playbackConst = 1000,
         // get page height from video duration
-        setHeight = document.getElementById("set-height"), 
-        // select video element         
-        vid = document.getElementById('v0'); 
+        setHeight = document.getElementById("set-height"),
+        // select video element
+        vid = document.getElementById('v0');
         // var vid = $('#v0')[0]; // jquery option
 
     // dynamically set the page height according to video length
@@ -86,31 +87,31 @@
 
 
     // Use requestAnimationFrame for smooth playback
-    function scrollPlay(){  
+    function scrollPlay(){
     var frameNumber  = window.pageYOffset/playbackConst;
     vid.currentTime  = frameNumber;
     window.requestAnimationFrame(scrollPlay);
     }
 
     window.requestAnimationFrame(scrollPlay);
-    
+
     </script>
     <div class="container">
           <a href="page4.html" class="button">
             <span type="button" class="but"></span>
           </a>
-        </div>  
+        </div>
 <p>
 The duo are known for their striking visual prescense as well as the many memorable hits they have had over the years. Some of the songs they are most well known for include:
 <br>
 <br>
-You're History - 1989 
+You're History - 1989
 <br>
 <br>
 Run Silent - 1989
 <br>
 <br>
-I Don't Care - 1992  
+I Don't Care - 1992
 <br>
 <br>
 Stay - 1992
