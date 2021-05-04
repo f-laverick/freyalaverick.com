@@ -75,7 +75,7 @@ html, body {
   text-align: center;
   font-family: roboto;
   font-size: 1.25rem;
-  line-height: 110%;
+  line-height: 115%;
 }
 
 #content5 {
@@ -85,9 +85,36 @@ html, body {
   font-size: 1.3rem;
   line-height: 115%;
 }
-.textbox {
+
+.textbox1 {
+    max-width: 65vw;
+    height: 400;
+    background: #fff;
+    opacity: 0.75;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    color: #191818;
+    border: 4px solid #ae0405;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.textbox7 {
     max-width: 65vw;
     height: 1200;
+    background: #fff;
+    opacity: 0.75;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    color: #191818;
+    border: 4px solid #ae0405;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.textbox {
+    max-width: 65vw;
+    height: 500;
     background: #fff;
     opacity: 0.75;
     padding-top: 10px;
@@ -103,8 +130,8 @@ html, body {
     height: 450;
     background: #fff;
     opacity: 0.75;
-    padding: 10px;
-    font-size: 1.35rem;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25rem;
     color: #191818;
     border: 4px solid #ae0405;
     box-sizing: border-box;
@@ -118,8 +145,8 @@ html, body {
     height: 450;
     background: #fff;
     opacity: 0.75;
-    padding: 10px;
-    font-size: 1.35rem;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.25rem;
     color: #191818;
     border: 4px solid #ae0405;
     box-sizing: border-box;
@@ -144,7 +171,6 @@ h1 {
     font-style: normal;
     font-display: swap;
 }
-
 
 .but {
   box-sizing: border-box;
