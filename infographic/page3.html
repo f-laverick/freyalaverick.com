@@ -11,10 +11,9 @@
 </head>
 
 
-<body>
-    <div class="wrap">
-        <section class="container">
-            <div class="content">
+<body class="page-3">
+    <section class="page-wrap">
+        <div class="page-copy">
                 <p>
                 The duo are known for their striking visual prescense as well as the many memorable hits they have had over the years. Some of the songs they are most well known for include:
                 </p>
@@ -61,41 +60,7 @@
         <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="assets/video/songs.mp4"></source>
     </video>
 
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script>
 
-        enterView({
-            selector: 'section',
-            enter: function(el) {
-                el.classList.add('entered');
-            }
-        })
-
-        var frameNumber = 0, // start video at frame 0
-        // lower numbers = faster playback
-        playbackConst = 1000,
-        // get page height from video duration
-        setHeight = document.getElementById("set-height"),
-        // select video element
-        vid = document.getElementById('v0');
-        // var vid = $('#v0')[0]; // jquery option
-
-    // dynamically set the page height according to video length
-    vid.addEventListener('loadedmetadata', function() {
-    setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-    });
-
-
-    // Use requestAnimationFrame for smooth playback
-    function scrollPlay(){
-    var frameNumber  = window.pageYOffset/playbackConst;
-    vid.currentTime  = frameNumber;
-    window.requestAnimationFrame(scrollPlay);
-    }
-
-    window.requestAnimationFrame(scrollPlay);
-
-    </script>
     <div class="container">
           <a href="page4.html" class="button">
             <span type="button" class="but"></span>
@@ -131,5 +96,41 @@ C U Next Tuesday - 2019
 <br>
 All The Queen's Horses - 2019
 </p>
+<script type="text/javascript" src="assets/js/sticky.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+    <script>
+
+        enterView({
+            selector: 'section',
+            enter: function(el) {
+                el.classList.add('entered');
+            }
+        })
+
+        var frameNumber = 0, // start video at frame 0
+        // lower numbers = faster playback
+        playbackConst = 1000,
+        // get page height from video duration
+        setHeight = document.getElementById("set-height"),
+        // select video element
+        vid = document.getElementById('v0');
+        // var vid = $('#v0')[0]; // jquery option
+
+    // dynamically set the page height according to video length
+    vid.addEventListener('loadedmetadata', function() {
+    setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+    });
+
+
+    // Use requestAnimationFrame for smooth playback
+    function scrollPlay(){
+    var frameNumber  = window.pageYOffset/playbackConst;
+    vid.currentTime  = frameNumber;
+    window.requestAnimationFrame(scrollPlay);
+    }
+
+    window.requestAnimationFrame(scrollPlay);
+
+    </script>
 </body>
 </html>

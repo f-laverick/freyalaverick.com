@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shakespears Sister</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/page.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/page.css">
 </head>
 
-<body>
-  <section class="page-wrap1">
-    <figure class="bg-image">
-      <img class="image" src="assets/images/tour.jpg" />
-    </figure>
-
+<body class="page-7 has-background">
+  <section class="page-wrap">
       <div class="page-copy">
-        <div class="textbox7">
-          <div id="content">
+        <span id="star" class="star" data-next="line1"></span>
+        <div id="line1" class="line line-v line1 start">
+          <span data-next="box1"></span>
+        </div>
+        <div id="box1" class="textbox box box-v box1" data-next="line2">
+          <div id="content" class="inner">
             <p>
               After reconciling their differences, in 2019 the duo decided to come back for a UK tour. They played new music as well as the original material. It was a showcase of their history from 1988 to the now.
               <br>
@@ -95,13 +95,16 @@
             </p>
           </div>
         </div>
-        <div class="container">
-          <a href="page8.html" class="button">
-            <span type="button" class="but"></span>
-          </a>
-        </div>
-      </div>
-  </section>
+        <div id="line2" class="line line-v line2">
+          <span data-next=""></span>
+           </div>
+           <div class="footer">
+             <a href="page8.html" class="next-page">
+               <span type="button" class="arrow"></span>
+             </a>
+           </div>
+         </div>
+     </section>
 </body>
 <script type="text/javascript" src="assets/js/main.js"></script>
 </html>
