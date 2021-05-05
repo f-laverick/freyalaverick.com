@@ -1,9 +1,28 @@
+/**
+ * Variables
+ */
 .page-copy {
   --border-color: #ae0405;
   --border-width: 4px;
   --background-color: #fff;
 }
 
+/**
+ * Pseudo element defaults
+ */
+.box:before,
+.box:after,
+.line span:before,
+.line span:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+/**
+ * Box defaults
+ */
 .box {
   position: relative;
   padding: var(--border-width);
@@ -12,104 +31,86 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-.line {
-  position: relative;
-}
-.line-v {
-  width: var(--border-width);
-}
-.line-h {
-  height: var(--border-width);
-}
-.box:before,
-.box:after,
-.line:before,
-.line:after {
-  content: ' ';
-  display: block;
-  position: absolute;
-  width: 0;
-  z-index: -1;
-  animation-fill-mode: forwards;
-}
-.box:before {
-  top: 0;
-}
-.box:after {
-  bottom: 0;
-}
-.line-v:before {
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.inner {
-  /* position: absolute;
-  top: var(--border-width);
-  bottom: var(--border-width);
-  left: var(--border-width);
-  right: var(--border-width);
-  z-index: 1; */
+.box .inner {
   display: inline-block;
   background-color: var(--background-color);
 }
+.box:before,
+.box:after {
+  width: 0;
+  z-index: -1;
+}
 .box:before {
+  top: 0;
   background-color: var(--border-color);
   animation-name: animate-top-flow;
   animation-duration: 2s;
 }
 .box:after {
+  bottom: 0;
   background-color: var(--background-color);
   animation-name: animate-bottom-flow;
   animation-duration: 1s;
   animation-delay: 2s;
 }
-.box,
-.box:before,
-.box:after {
-  animation-play-state: paused;
-}
 
-.line1 {
-  height: 40px;
+/**
+ * Line defaults
+ */
+.line {
+  display: flex;
+  justify-content: center;
 }
-.line:before {
+.line-v {
+  flex-direction: row;
+}
+.line-h {
+  flex-direction: column;
+}
+.line span {
+  position: relative;
+}
+.line-v span {
+  width: var(--border-width);
+}
+.line-h span {
+  height: var(--border-width);
+}
+.line span:before {
   background-color: var(--border-color);
-  animation-name: animate-v-line;
   animation-duration: 1s;
   animation-delay: 1s;
-  animation-play-state: paused;
 }
-.box1:hover,
-.box2 {
-  animation-name: animate-box;
-  animation-delay: 2s;
-  animation-duration: 1s;
-}
-.box1:hover:before,
-.box2:before {
-  animation-name: animate-top-flow;
-  animation-duration: 2s;
-}
-.box1:hover:after,
-.box2:after {
-  animation-name: animate-bottom-flow;
-  animation-duration: 1s;
-  animation-delay: 2s;
+.line-v span:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  animation-name: animate-v-line;
 }
 
-.box2,
-.box2:before,
-.box2:after {
+/**
+ * Run state
+ */
+.box,
+.box:before,
+.box:after,
+.line span,
+.line span:before,
+.line span:after {
   animation-play-state: paused;
 }
-
-*.run,
-*.run:before,
-*.run:after {
+.box.run,
+.box.run:before,
+.box.run:after,
+.line.run span,
+.line.run span:before,
+.line.run span:after {
   animation-play-state: running;
 }
 
+/**
+ * Animations
+ */
 @keyframes animate-top-flow {
   0% {
     width: 0;
@@ -163,4 +164,15 @@
     top: 0;
     bottom: 0;
   }
+}
+
+/**
+ * Page 1
+ */
+.page-1 .line1 {
+  height: 45vw;
+}
+
+.page-1 .line2 {
+  height: 45vw;
 }
