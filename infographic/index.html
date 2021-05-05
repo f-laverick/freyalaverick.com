@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shakespears Sister</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/page.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/page.css">
 </head>
 
-<body>
-  <section class="page-wrap1">
-    <figure class="bg-image">
-      <img class="image" src="assets/images/ss11.jpg" />
-    </figure>
+<body class="page-1 has-background">
+  <section class="page-wrap">
       <div class="page-copy">
-        <div class="textbox1 box" data-next="">
+        <span id="star" class="star" data-next="line1"></span>
+        <div id="line1" class="line line-v line1 start">
+          <span data-next="box1"></span>
+        </div>
+
+        <div id="box1" class="textbox box box-v box1" data-next="line2">
           <div id="content" class="inner">
             <p>
               Shakespears Sister are an alternative rock and pop musical duo.
@@ -32,10 +34,13 @@
             </p>
           </div>
         </div>
-        <span id="line1" class="line" data-next=""></span>
-        <div class="container">
-          <a href="page2.html" class="button">
-            <span type="button" class="but"></span>
+
+        <div id="line2" class="line line-v line2">
+       <span data-next=""></span>
+        </div>
+        <div class="footer">
+          <a href="page2.html" class="next-page">
+            <span type="button" class="arrow"></span>
           </a>
         </div>
       </div>
