@@ -56,6 +56,20 @@
 /**
  * Elements
  */
+.title-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.title-image img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .textbox {
   max-width: 65vw;
   opacity: 0.75;
@@ -125,7 +139,17 @@
 }
 
 .page-6 .video-text {
+  position: relative;
+  z-index: 2;
   border: solid var(--border-width) var(--border-color);
+}
+
+.page-8 .video-text {
+  background: transparent;
+}
+
+.page-8 .title-image {
+  position: relative;
 }
 
 .video-player + .video-text {
@@ -232,5 +256,3 @@ h1 {
   width: auto;
   height: auto;
 }
-
-

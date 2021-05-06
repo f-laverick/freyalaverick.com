@@ -10,6 +10,20 @@ body {
   width: 100%;
 }
 
+.title-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.title-image img {
+  display: inline-block;
+  max-width: 100%;
+}
+
 .audio-player {
   position: fixed;
   top: 20vw;
