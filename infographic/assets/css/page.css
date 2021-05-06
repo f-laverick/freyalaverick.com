@@ -59,8 +59,8 @@
 .title-image {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 10vw;
+  right: 10vw;
   z-index: 1;
   max-width: 100%;
 }
