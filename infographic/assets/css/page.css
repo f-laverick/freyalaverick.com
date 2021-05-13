@@ -59,8 +59,8 @@
 .title-image {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 10vw;
+  right: 10vw;
   z-index: 1;
   max-width: 100%;
 }
@@ -68,6 +68,7 @@
 .title-image img {
   display: inline-block;
   max-width: 100%;
+
 }
 
 .textbox {
@@ -78,10 +79,11 @@
 
 .textbox .inner {
   padding: 20px 30px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   line-height: 115%;
   color: var(--text-color);
+  text-align: center;
 }
 
 .arrow {
@@ -142,6 +144,7 @@
   position: relative;
   z-index: 2;
   border: solid var(--border-width) var(--border-color);
+
 }
 
 .page-8 .video-text {
@@ -150,6 +153,9 @@
 
 .page-8 .title-image {
   position: relative;
+  left: 1vw;
+  right: 10vw;
+  top: -10vw;
 }
 
 .video-player + .video-text {
