@@ -1,0 +1,280 @@
+/**
+ * Variables
+ */
+.page-copy {
+  --border-color: #ae0405;
+  --border-width: 4px;
+  --background-color: #fff;
+}
+
+/**
+ * Pseudo element defaults
+ */
+.box:before,
+.box:after,
+.line span:before,
+.line span:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+/**
+ * Box defaults
+ */
+.box {
+  position: relative;
+  padding: var(--border-width);
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.box .inner {
+  display: inline-block;
+  background-color: var(--background-color);
+}
+.box:before,
+.box:after {
+  width: 0;
+  z-index: -1;
+}
+
+.box:before {
+  background-color: var(--border-color);
+  animation-duration: 2s;
+}
+.box:after {
+  background-color: var(--background-color);
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+.box-v:before {
+  top: 0;
+  animation-name: animate-top-flow;
+}
+.box-v:after {
+  bottom: 0;
+  animation-name: animate-bottom-flow;
+}
+.box-h-l:before {
+  right: 0;
+  animation-name: animate-h-start-flow;
+}
+.box-h-l:after {
+  left: 0;
+  animation-name: animate-h-end-flow;
+}
+.box-h-r:before {
+  left: 0;
+  animation-name: animate-h-start-flow;
+}
+.box-h-r:after {
+  right: 0;
+  animation-name: animate-h-end-flow;
+}
+
+/**
+ * Line defaults
+ */
+.line {
+  display: flex;
+  justify-content: center;
+}
+.line-v {
+  flex-direction: row;
+}
+.line-h {
+  flex-direction: column;
+}
+.line span {
+  position: relative;
+}
+.line-v span {
+  width: var(--border-width);
+}
+.line-h span {
+  height: var(--border-width);
+}
+.line span:before {
+  background-color: var(--border-color);
+  animation-duration: 1s;
+  opacity: 0.75;
+}
+.line-v span:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  animation-name: animate-v-line;
+}
+
+.line-h span:before {
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  width: 0;
+  animation-name: animate-h-line;
+}
+
+.start span:before,
+.start:before {
+  animation-delay: 1s;
+}
+
+/**
+ * Run state
+ */
+.box,
+.box:before,
+.box:after,
+.line span,
+.line span:before,
+.line span:after {
+  animation-play-state: paused;
+}
+.box.run,
+.box.run:before,
+.box.run:after,
+.line.run span,
+.line.run span:before,
+.line.run span:after {
+  animation-play-state: running;
+}
+
+/**
+ * Animations
+ */
+@keyframes animate-top-flow {
+  0% {
+    width: 0;
+    height: 10px;
+    left: 50%;
+  }
+  50% {
+    width: 100%;
+    height: 10px;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@keyframes animate-h-start-flow {
+  0% {
+    width: 10px;
+    height: 0;
+    top: 50%;
+  }
+  50% {
+    width: 10px;
+    height: 100%;
+    top: 0;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+}
+
+@keyframes animate-bottom-flow {
+  0% {
+    width: 100%;
+    height: 10px;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    height: 10px;
+    left: 50%;
+  }
+}
+
+@keyframes animate-h-end-flow {
+  0% {
+    width: 10px;
+    height: 100%;
+    top: 0;
+  }
+  100% {
+    width: 10px;
+    height: 0;
+    top: 50%;
+  }
+}
+
+@keyframes animate-v-line {
+  0% {
+    height: 0;
+    width: 10px;
+    top: 0;
+  }
+  100% {
+    width: 10px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+@keyframes animate-h-line {
+  0% {
+    width: 0;
+    height: 10px;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    height: 10px;
+    left: 0;
+  }
+}
+
+/**
+ * Page 1
+ */
+.page-1 .line1 {
+  height: 45vw;
+}
+
+.page-1 .line2 {
+  height: 45vw;
+}
+
+.page-2 .line1 {
+  height: 65vw;
+}
+
+.page-2 .horizontal-boxes {
+  margin-top: -21vw;
+}
+
+.page-2 .line2 {
+  width: 20vw;
+}
+
+.page-2 .line3 {
+  height: 40vw;
+  margin-top: -21vw;
+}
+
+.page-5 .line1 {
+  height: 45vw;
+}
+
+.page-5 .line2 {
+  height: 45vw;
+}
+
+.page-7 .line1 {
+  height: 45vw;
+}
+
+.page-7 .line2 {
+  height: 45vw;
+}
