@@ -1,23 +1,20 @@
 <template>
-    <div class="pic">
-        <div class="text-box">
-			<p2>freya laver<span class="i">i</span>ck</p2>
-			<p3>graphic designer based in the lake district</p3>
-		</div>
+  <div class="home">
+    <div class="hero">
+      <p>freya laver<span class="i">i</span>ck</p>
+      <p>graphic designer based in the lake district</p>
     </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'HomePage',
+export default {
+  name: 'HomePage',
 
-        head:{
-            title: 'Welcome',
-        }
-
-    }
+  head: {
+    title: 'Welcome',
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

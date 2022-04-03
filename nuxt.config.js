@@ -25,20 +25,17 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda+Lato&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap',
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Lato&display=swap'
-      }
+        href: 'https://fonts.googleapis.com/css2?family=Lato&display=swap',
+      },
     ],
   },
 
   /**
    * Global CSS
    */
-  css: [
-    'normalize.css',
-    '~/assets/scss/style.scss'
-  ],
+  css: ['normalize.css', '~/assets/scss/style.scss'],
 };

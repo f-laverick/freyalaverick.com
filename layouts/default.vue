@@ -1,9 +1,10 @@
 <template>
-  <div class="container">
-    <site-navigation />
+  <div class="wrapper" :class="pageClass">
     <page-header />
     <section class="main">
+      <div class="container">
         <Nuxt />
+      </div>
     </section>
     <page-footer />
   </div>
@@ -12,12 +13,27 @@
 <script>
 import PageFooter from '~/components/PageFooter';
 import PageHeader from '~/components/PageHeader';
-import SiteNavigation from '~/components/SiteNavigation';
+
 export default {
   components: {
     PageFooter,
     PageHeader,
-    SiteNavigation,
+  },
+
+  computed: {
+    pageClass() {
+      switch (this.$route.name) {
+        case 'about':
+          return 'about-page';
+          break;
+        case 'portfolio':
+          return 'portfolio-page';
+          break;
+        default:
+          return 'home-page';
+          break;
+      }
+    },
   },
 };
 </script>
