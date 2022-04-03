@@ -1,0 +1,192 @@
+.port-container {
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
+}
+
+#page {
+  display: grid;
+  grid-template-columns: (1fr 1fr 1fr);
+  padding: 10%;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    'title1 info-proj info-proj'
+    'img-1 img-2 img-2'
+    'img-3 img-3 img-4'
+    'img-5 img-5 img-5';
+}
+
+.img-gal a {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-1 {
+  grid-area: img-1;
+  background-color: $purple;
+}
+
+.img-2 {
+  grid-area: img-2;
+  background-color: $purple;
+}
+
+.img-3 {
+  grid-area: img-3;
+  background-color: $purple;
+}
+
+.img-4 {
+  grid-area: img-4;
+  background-color: $purple;
+}
+
+.img-5 {
+  grid-area: img-5;
+  background-color: $purple;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.mainimg-gal {
+  display: grid;
+  grid-template-columns: (1fr 1fr);
+  padding: 6%;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 2rem;
+  grid-row-gap: 8rem;
+  grid-template-areas:
+    'img-1 img-2'
+    'img-3 img-4'
+    'img-5 img-6';
+}
+
+.mainimg-gal a {
+  width: 100%;
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-1 {
+  grid-area: img-1;
+  background-color: $purple;
+}
+
+.img-2 {
+  grid-area: img-2;
+  background-color: $purple;
+}
+
+.grid-item1 {
+  grid-area: grid-item1;
+  background-color: $purple;
+}
+
+.grid-item2 {
+  grid-area: grid-item2;
+  background-color: $purple;
+}
+
+.img-3 {
+  grid-area: img-3;
+  background-color: $purple;
+}
+
+.img-4 {
+  grid-area: img-4;
+  background-color: $purple;
+}
+
+.img-5 {
+  grid-area: img-5;
+  background-color: $purple;
+}
+
+.img-6 {
+  grid-area: img-6;
+  background-color: $purple;
+}
+
+.img-7 {
+  grid-area: img-7;
+  background-color: $purple;
+}
+
+.img-8 {
+  grid-area: img-8;
+  background-color: $purple;
+}
+
+.img-9 {
+  grid-area: img-9;
+  background-color: $purple;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr);
+  padding: 10%;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-gap: 2.5rem;
+  grid-template-areas:
+    'card-image1 card-image2'
+    'card-image3 card-image4';
+}
+
+@media (min-width: 500px) {
+  .cards {
+  }
+
+  .card_image {
+    width: 100%;
+    display: block;
+  }
+
+  h4 {
+    font-weight: bold;
+    font-family: lato;
+  }
+
+  .card_content {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .p5 {
+    font-family: lato;
+  }
+
+  img {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

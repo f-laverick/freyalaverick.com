@@ -1,0 +1,156 @@
+body {
+	font-family: $font-family-sans-serif;
+  background-color: $light;
+}
+
+.ab-para  {
+  font-family: $font-family-sans-serif;
+  font-size: 1.1rem;
+  line-height: 125%;
+  padding: 5px 0;
+}
+
+.header {
+  height: 8vh;
+  background-color: $light;
+}
+
+
+.home-link {
+  font-size: 3rem;
+  font-family: $font-family-heading;
+  font-weight: lighter;
+  letter-spacing: -.8px;
+  position: absolute;
+  padding: 3px 30px 3px 0px;
+  left: 30px;
+}
+
+.text-box {
+	max-width: 40vw;
+	max-height: 22vh;
+	padding: 20px 20px;
+	/*
+	Styles to center a block within a position relative parent block
+	*/
+	position: absolute;
+	align-items: center;
+	top: 0;
+	bottom: 30vh;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.p2 {
+  font-size: 4.5rem;
+  font-family: $font-family-heading;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p3 {
+  font-size: 1.8rem;
+  font-family: $font-family-serif;
+  font-weight: lighter;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.i {
+  color: $green;
+  position: relative;
+}
+
+.i:before {
+  content: "ı";
+  position: absolute;
+  color: $dark;
+}
+
+.pic {
+	height: 100vh;
+	background: url(~assets/images/heroimg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+@media (max-width: 2880px){
+  p1 {
+    font-size: 2.5rem;
+  }
+  p2 {
+    font-size: 4.2rem;
+  }
+  p3 {
+    font-size: 1.8rem;
+  }
+  .nav-link {
+    font-size: 2.2rem;
+  }
+}
+
+h3 {
+  font-family: $font-family-sans-serif, bold;
+  font-size: 2.4rem;
+}
+
+.about-section {
+  width: 100%;
+  padding: 80px 0;
+
+}
+
+.img-info {
+  flex: 0 0 40%;
+  max-width: 28vw;
+  text-align: center;
+  position: relative;
+  padding-right: 3vw;
+}
+
+.about-info {
+  padding-left: 5vw;
+}
+
+.container2 {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 0%;
+}
+
+
+
+
+.main {
+	justify-content: center;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 20px;
+
+}
+
+@media (min-width: 480px) {
+	.main {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 768px) {
+	.main {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+li {
+	display: list-item;
+}
