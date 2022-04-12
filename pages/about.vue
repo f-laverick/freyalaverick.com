@@ -32,8 +32,10 @@
 export default {
   name: 'AboutPage',
 
-  head: {
-    title: 'About',
+  head() {
+    return {
+      title: 'About',
+    };
   },
 };
 </script>

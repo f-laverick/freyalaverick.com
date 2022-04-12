@@ -13,6 +13,11 @@
     <nav class="navbar" :class="{ open: menuOpen }">
       <ul class="nav-list">
         <li class="nav-item">
+          <NuxtLink to="/" class="nav-link" @click.native="menuOpen = false"
+            >home</NuxtLink
+          >
+        </li>
+        <li class="nav-item">
           <NuxtLink
             to="/portfolio"
             class="nav-link"

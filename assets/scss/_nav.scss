@@ -22,8 +22,8 @@
 .hamburger-menu {
   position: relative;
   padding: calc($gap / 2);
-  width: calc($gap * 1.5);
-  height: calc($gap * 1.25);
+  width: calc($gap * 2.5);
+  height: calc($gap * 2.25);
   z-index: 2;
   cursor: pointer;
   display: flex;
@@ -71,4 +71,8 @@
   color: $dark;
   text-decoration: none;
   cursor: pointer;
+
+  .nuxt-link-active {
+    color: $green;
+  }
 }

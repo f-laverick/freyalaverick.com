@@ -7,7 +7,7 @@ export default {
 
   head: {
     title: 'home',
-    titleTemplate: '%s',
+    titleTemplate: '%s - Freya Laverick, Graphic Designer',
     htmlAttrs: {
       lang: 'en',
     },

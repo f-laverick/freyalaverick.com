@@ -11,8 +11,10 @@
 export default {
   name: 'HomePage',
 
-  head: {
-    title: 'Welcome',
+  head() {
+    return {
+      title: 'Welcome',
+    };
   },
 };
 </script>

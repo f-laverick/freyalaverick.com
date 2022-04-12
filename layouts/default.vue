@@ -29,6 +29,9 @@ export default {
         case 'portfolio':
           return 'portfolio-page';
           break;
+        case 'portfolio-slug':
+          return 'portfolio-project';
+          break;
         default:
           return 'home-page';
           break;

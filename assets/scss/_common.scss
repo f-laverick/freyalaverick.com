@@ -3,6 +3,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+html * {
+  box-sizing: border-box;
+}
+
 body {
   font-family: $font-family-sans-serif;
   background-color: $light;
@@ -31,6 +35,11 @@ h3 {
 
 p {
   margin-bottom: calc($gap / 2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .main {
