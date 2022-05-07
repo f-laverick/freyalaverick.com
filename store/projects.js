@@ -105,7 +105,7 @@ export const state = () => ({
       ],
     },
     {
-      title: 'Project 3',
+      title: 'Project B',
       thumb: 'images/heroimg.jpg',
       intro:
         'Robot 1-X, save my friends! And Zoidberg! Oh no! The professor will hit me!',
