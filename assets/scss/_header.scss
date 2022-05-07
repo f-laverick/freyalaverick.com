@@ -1,0 +1,39 @@
+.header {
+  background-color: $light;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  .columns {
+    justify-content: space-between;
+  }
+}
+
+.brand {
+  padding: calc($gap / 2);
+  .home-link {
+    font-size: $size-3;
+    font-family: $font-family-heading;
+    font-weight: lighter;
+    letter-spacing: -0.8px;
+    color: $dark;
+    text-decoration: none;
+    cursor: pointer;
+
+    @media screen and (min-width: $desktop) {
+      font-size: $size-3;
+    }
+  }
+}
+
+.i {
+  color: $green;
+  position: relative;
+}
+
+.i:before {
+  content: 'ı';
+  position: absolute;
+  color: $dark;
+}
