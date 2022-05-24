@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Regular.woff') format('woff2'),
+         url('./fonts/MinionPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f1f1f1;
+}
+
+.arrow{
+	color: #03827f;
+	text-shadow: 1px 1px 1px #fff;
+	font-size: 70px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	text-decoration: none;
+
+}
+
+.sub{
+	position: relative;
+	top: 325px;
+	left: 450px;
+	color: #03827f;
+	font-family: MinionPro-Medium;
+	text-shadow: 0.5px 0.5px 1px #fff;
+	font-size: 1.6rem;
+}
+
+#parallax h3{
+	font-family: MinionPro-Regular;
+	font-size: 2rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: black;
+	padding: 10px;
+	margin: 0;
+	letter-spacing: 6px;
+}
+
+#parallax p{
+	font-weight: 400;
+	line-height: 28px;
+	padding-left: 10px;
+}
+
+.block{
+	max-width: 100vh;
+	
+}
+
+#parallax .block{
+	padding: 30px 20px 70px 20px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/*.title-bar {
+	position: relative;
+}
+
+.title-film {
+	position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}*/
+
+
+#parallax .parallax-one1{
+	padding-top: 360px;
+	padding-bottom: 360px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url(../images/film9/mamaweed.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#parallax .parallax-two2{
+	padding-top: 360px;
+	padding-bottom: 360px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url(../images/film9/mama1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.cards {
+	margin: 0 auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+	font-family: MinionPro-Regular
+}
+
+@media (min-width: 480px) {
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 768px) {
+	.cards {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.card {
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.card_image {
+	height: 172px;
+	width: 100%;
+	display: block;
+}
+
+.card_content {
+	text-align: center;
+	line-height: 1.5;
+	padding: 16px;
+	background-color: #fafafa;
+}
+
+#parallax .parallax-three3{
+	padding-top: 360px;
+	padding-bottom: 360px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-image: url(../images/film9/mama2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.mask {
+	display: none;
+	background-color: rgba(255,255,255,0.5);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 80px;
+}
+
+.close-gallery {
+	position: fixed;
+	top: 40px;
+	right: 40px;
+}
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+.swiper-slide {
+	text-align: center;
+}
+
+.swiper-slide img {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
+
+.visible {
+	visibility: visible;
+	display: block;
+}

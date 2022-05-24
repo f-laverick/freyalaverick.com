@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio/Bike%20App", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,264 @@
+/**
+ * Fonts
+ */
+@font-face {
+  font-family: 'lucien';
+  src: url('../fonts/LucienSchoenschriftvCAT.woff2') format('woff2'),
+    url('../fonts/LucienSchoenschriftvCAT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**
+ * Layout
+ */
+.page-container {
+  height: 100vh;
+}
+
+.image {
+  max-width: 100vw;
+}
+
+.page-wrap {
+  --text-color: #191818;
+  position: relative;
+  width: 100%;
+}
+
+.page-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 20vw 20px 30px;
+}
+
+.has-background .page-wrap {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.horizontal-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+/**
+ * Elements
+ */
+.title-image {
+  position: fixed;
+  top: 0;
+  left: 10vw;
+  right: 10vw;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.title-image img {
+  display: inline-block;
+  max-width: 100%;
+
+}
+
+.textbox {
+  max-width: 65vw;
+  opacity: 0.75;
+  background: var(--background-color);
+}
+
+.textbox .inner {
+  padding: 20px 30px;
+  font-size: 1.4rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  line-height: 115%;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.arrow {
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: var(--border-color);
+  border-width: 0px 7px 7px 0px;
+  transform: rotate(45deg) translate(-1.7vw, -2vw);
+  transition: border-width 150ms ease-in-out;
+  display: block;
+  cursor: pointer;
+}
+
+/**
+ * Per page layout
+ */
+.page-1 .page-wrap {
+  height: 148vw;
+  background-image: url('../images/ss11.jpg');
+}
+
+.page-1 .textbox .inner {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.page-2 .page-wrap {
+  height: 125vw;
+  background-image: url('../images/im2.jpg');
+}
+
+.page-2 .textbox {
+  max-width: 30vw;
+}
+
+.page-2 .textbox .inner {
+  font-size: 1.125rem;
+}
+
+.page-2 .line2 {
+  align-self: center;
+}
+
+.page-5 .page-wrap {
+  height: 179vw;
+  background-image: url('../images/split.jpg');
+}
+.page-6 .page-copy {
+  padding-top: 10vw;
+}
+
+.page-6 .textbox .inner {
+  font-size: 1.25rem;
+}
+
+.page-6 .video-text {
+  position: relative;
+  z-index: 2;
+  border: solid var(--border-width) var(--border-color);
+
+}
+
+.page-8 .video-text {
+  background: transparent;
+}
+
+.page-8 .title-image {
+  position: relative;
+  left: 1vw;
+  right: 10vw;
+  top: -10vw;
+}
+
+.video-player + .video-text {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.video-player + .video-text.active {
+  opacity: 0.8;
+}
+
+.page-6 .footer {
+  padding-top: 8vw;
+}
+
+.page-7 .page-wrap {
+  height: 148vw;
+  background-image: url('../images/tour.jpg');
+}
+.page-7 .textbox .inner {
+  font-size: 1.25rem;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 45%;
+}
+.page-wrap5 {
+  position: relative;
+  width: 100%;
+  padding-top: 179%;
+}
+
+.page-wrap6 {
+  position: relative;
+  width: 100%;
+  padding-top: 47%;
+}
+
+#content5 {
+  padding: 20px 30px;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1.3rem;
+  line-height: 115%;
+}
+
+.textbox1 {
+  max-width: 65vw;
+  background: #fff;
+  opacity: 0.75;
+  font-size: 1.6rem;
+  color: #191818;
+}
+
+.textbox7 {
+  max-width: 65vw;
+  height: 1200;
+  background: #fff;
+  opacity: 0.75;
+  padding-top: 10px;
+  font-size: 1.6rem;
+  color: #191818;
+  border: 4px solid #ae0405;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h1 {
+  font-family: lucien;
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+.container {
+  padding: 14px 0px 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#v0 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+#set-height {
+  display: block;
+}
+
+.vid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}

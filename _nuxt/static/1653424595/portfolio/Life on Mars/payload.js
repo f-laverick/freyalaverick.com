@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio/Life%20on%20Mars", {data:[{}],fetch:{},mutations:[]});
