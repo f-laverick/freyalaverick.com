@@ -15,6 +15,10 @@ body {
   line-height: 1.25;
 }
 
+.project-caption {
+  color: #777777;
+}
+
 h1,
 h2 {
   font-family: $font-family-heading;
@@ -71,6 +75,7 @@ img {
 .content {
   padding-left: calc($gap / 2);
   padding-right: calc($gap / 2);
+  padding-bottom: calc($gap / 2);
 }
 
 /**
