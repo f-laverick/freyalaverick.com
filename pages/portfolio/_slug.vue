@@ -1,8 +1,11 @@
 <template>
   <div v-if="project" class="portfolio-project content">
-    <div class="intro">
-      <h1 class="title">{{ project.title }}</h1>
-      <div v-html="project.copy" class="copy" />
+    <div class="intro columns">
+      <div class="column">
+        <h1 class="title">{{ project.title }}</h1>
+        <p><NuxtLink to="/portfolio">Back to portfolio</NuxtLink></p>
+      </div>
+      <div v-html="project.copy" class="copy column" />
     </div>
     <div class="images">
       <project-image

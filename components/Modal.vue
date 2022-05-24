@@ -16,8 +16,6 @@
 export default {
   name: 'Modal',
 
-  components: { ButtonField },
-
   props: {
     show: {
       type: Boolean,
