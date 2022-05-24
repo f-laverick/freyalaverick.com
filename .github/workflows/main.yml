@@ -1,9 +1,15 @@
-name: cd
+name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+  workflow_dispatch:
 
 jobs:
-  cd:
+  build:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -21,10 +27,10 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        run: yarn
+        run: npm install
 
       - name: Generate
-        run: yarn generate
+        run: npm run generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
