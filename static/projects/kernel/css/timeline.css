@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Regular.woff') format('woff2'),
+         url('./fonts/MinionPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.timeline {
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	flex-direction: column;
+	max-width: 700px;
+	position: relative;
+}
+
+.timeline-content-title {
+	font-weight: normal;
+	font-size: 2rem;
+	margin: -10px 0 0 0;
+	transition: 0.4s;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-family: MinionPro-Regular;
+	color: white;
+}
+
+.timeline-content-desc {
+	margin: 0;
+	font-size: .5rem;
+	box-sizing: border-box;
+	color: rgba(255,255,255,.7);
+	font-family: MinionPro-Regular;
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.timeline:before {
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	margin-left: -1px;
+	content: "";
+	background: rgba(255,255,255,.7);
+}
+
+@media only screen and (max-width:777px){
+	.timeline:before{
+		left: 40px;
+	}
+}
+
+.timeline-item {
+	padding: 40px 0;
+	opacity: 0.3;
+	filter: blur(2px);
+	transition: 0.5s;
+	box-sizing: border-box;
+	width: calc(50% - 40px);
+	display: flex;
+	position: relative;
+	transform: translateY(-80px);
+}
+
+.timeline-item:before{
+	content: attr(data-text);
+	letter-spacing: 3px;
+	width: 100%;
+	position: absolute;
+	color: rgba(255,255,255,.5);
+	font-size: 0.5rem;
+	font-family: MinionPro-Regular;
+	border-left: 2px solid rgba(225,225,225,.5);
+	top: 70%;
+	margin-top: -5px;
+	padding-left: 15px;
+	opacity: 0;
+	right: calc(-100% - 55px);
+}
+
+.timeline-item:nth-child(even){
+	align-self: flex-end;
+}
+
+.timeline-item:nth-child(even):before{
+	right: auto;
+	text-align: right;
+	left: calc(-100% - 55px);
+	padding-left: 0;
+	border-right: 2px solid rgba(255,255,255,.5);
+	padding-right: 15px;
+}
+
+.timeline-item-active {
+	opacity: 1;
+	transform: translateY(0);
+	filter: blur(0px);
+}
