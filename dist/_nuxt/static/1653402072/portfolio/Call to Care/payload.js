@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio/Call%20to%20Care", {data:[{}],fetch:{},mutations:[]});

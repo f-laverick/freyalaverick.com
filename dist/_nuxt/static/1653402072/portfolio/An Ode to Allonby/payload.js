@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio/An%20Ode%20to%20Allonby", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/portfolio/Kernel", {data:[{}],fetch:{},mutations:[]});
