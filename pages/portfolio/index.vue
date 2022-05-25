@@ -3,7 +3,7 @@
     <ul class="cards">
       <li v-for="project in projects" class="card">
         <NuxtLink :to="`/portfolio/${project.title}`" class="card-header">
-          <img :src="project.thumb" alt="" class="card-image"
+          <img :src="`\\${project.thumb}`" alt="" class="card-image"
         /></NuxtLink>
         <div class="card-content">
           <h3 class="card-title">{{ project.title }}</h3>
