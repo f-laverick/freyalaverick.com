@@ -4,8 +4,7 @@ export const state = () => ({
     {
       title: 'Call to Care',
       thumb: 'images/proj10/cover3.jpg',
-      intro:
-        'Editorial Project',
+      intro: 'Editorial Project',
       copy: `
 <h3>Editorial Project</h3>
 <p>A collaborative editorial project with a final year photography student. The outcome would both aid her exhibition and be used for her pet care business.</p>
@@ -112,8 +111,7 @@ export const state = () => ({
     {
       title: 'Catstycam',
       thumb: 'images/proj9/s-tag2.jpg',
-      intro:
-        'Brand/Identity Project',
+      intro: 'Brand/Identity Project',
       copy: `
 <h3>Brand/Identity Project</h3>
 <p>An identity for an outdoor brand based in the Ullswater Valley, aimed towards people who are interested and enjoy being outside. This colour scheme correlates to the season of summer.</p>
@@ -185,8 +183,7 @@ export const state = () => ({
     {
       title: 'An Ode to Allonby',
       thumb: 'images/proj8/cover.jpg',
-      intro:
-        'Editorial Project',
+      intro: 'Editorial Project',
       copy: `
 <h3>Editorial Project</h3>
 <p>An editorial project based on my memories growing up at Allonby. This is a series of memories and photos exploring these times and the connection I feel to the place.</p>
@@ -278,8 +275,7 @@ export const state = () => ({
     {
       title: 'Cans',
       thumb: 'images/proj7/f5.jpg',
-      intro:
-        'Packaging Project',
+      intro: 'Packaging Project',
       copy: `
 <h3>Packaging Project</h3>
 <p>A packaging project for flavoured sparkling water. The drinks were to be sold with the local company; Westmorland Family. The design was influenced by the Lake District.</p>
@@ -316,8 +312,7 @@ export const state = () => ({
     {
       title: 'Daydream',
       thumb: 'images/proj6/posters.jpg',
-      intro:
-        'Brand/Identity Project',
+      intro: 'Brand/Identity Project',
       copy: `
 <h3>Brand/Identity Project</h3>
 <p>A collaborative brand and identity project with the Performing Arts course. The aim of the project was to make fairytales accessible for children again.</p>
@@ -369,8 +364,7 @@ export const state = () => ({
     {
       title: 'Codex, Kernel',
       thumb: 'images/proj5/cover1.jpg',
-      intro:
-        'Magazine Project',
+      intro: 'Magazine Project',
       copy: `
 <h3>Magazine Design</h3>
 <p>Splash and turn pages for fictional magazines named 'codex' and 'kernel'. The theme of the articles was migration. </p>
@@ -432,8 +426,7 @@ export const state = () => ({
     {
       title: 'Kernel',
       thumb: 'images/proj4/kernel.jpg',
-      intro:
-        'Digital Publishing Project',
+      intro: 'Digital Publishing Project',
       copy: `
 <h3>Digital Publishing Project</h3>
 <p>A digital publishing project exploring the flexibility of a web based version of a magazine design. Working digitally allowed for a more interactive experience for the user.</p>
@@ -475,9 +468,8 @@ export const state = () => ({
     },
     {
       title: 'Infographic',
-      thumb: 'images/proj3/p111.jpg',
-      intro:
-        'Infographic Project',
+      thumb: 'images/proj3/p1.jpg',
+      intro: 'Infographic Project',
       copy: `
 <h3>Infographic Project</h3>
 <p>An infographic project exploring the band 'Shakespears Sister', using html, css and beginning to explore animation.</p>
@@ -560,8 +552,7 @@ export const state = () => ({
     {
       title: 'Bike App',
       thumb: 'images/proj2/app1.jpg',
-      intro:
-        'App Design Project',
+      intro: 'App Design Project',
       copy: `
 <h3>App Design Project</h3>
 <p>An app design project exploring balance and colour. The layouts feature a landing page and a product page.</p>
@@ -593,8 +584,7 @@ export const state = () => ({
     {
       title: 'Life on Mars',
       thumb: 'images/proj1/mag1.jpg',
-      intro:
-        'Magazine Project',
+      intro: 'Magazine Project',
       copy: `
 <h3>Magazine Design</h3>
 <p>A magazine design project exploring contrast and negative space. Splash and turn pages with a feature article called 'Life on Mars'. </p>
