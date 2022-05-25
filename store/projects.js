@@ -4,7 +4,7 @@ export const state = () => ({
 
     {
       title: 'Call to Care',
-      thumb: 'images/proj10/cover3.png',
+      thumb: 'images/proj10/cover3.jpg',
       intro:
         'Editorial Project',
       copy: `
@@ -14,97 +14,97 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj10/cover3.png',
+          src: 'images/proj10/cover3.jpg',
           alt: 'cover',
           caption: 'cover pages',
         },
         {
-          src: 'images/proj10/spread1.png',
+          src: 'images/proj10/spread1.jpg',
           alt: 'dedication page',
           caption: 'dedication page',
         },
         {
-          src: 'images/proj10/spread2.png',
+          src: 'images/proj10/spread2.jpg',
           alt: 'image spread',
           caption: 'image spread',
         },
         {
-          src: 'images/proj10/spread3.png',
+          src: 'images/proj10/spread3.jpg',
           alt: 'contents page',
           caption: 'contents',
         },
         {
-          src: 'images/proj10/spread4.png',
+          src: 'images/proj10/spread4.jpg',
           alt: 'welcome spread',
           caption: 'welcome',
         },
         {
-          src: 'images/proj10/spread5.png',
+          src: 'images/proj10/spread5.jpg',
           alt: 'rescue wonder spread',
           caption: 'rescue wonder',
         },
         {
-          src: 'images/proj10/spread6.png',
+          src: 'images/proj10/spread6.jpg',
           alt: 'rescue wonder spread',
           caption: 'rescue wonder',
         },
         {
-          src: 'images/proj10/spread7.png',
+          src: 'images/proj10/spread7.jpg',
           alt: 'rescue wonder spread',
           caption: 'rescue wonder',
         },
         {
-          src: 'images/proj10/spread8.png',
+          src: 'images/proj10/spread8.jpg',
           alt: 'same world, different colour',
           caption: 'same world, different colour',
         },
         {
-          src: 'images/proj10/spread9.png',
+          src: 'images/proj10/spread9.jpg',
           alt: 'same world, different colour',
           caption: 'same world, different colour',
         },
         {
-          src: 'images/proj10/spread10.png',
+          src: 'images/proj10/spread10.jpg',
           alt: 'more than just a sound',
           caption: 'more than just a sound',
         },
         {
-          src: 'images/proj10/spread11.png',
+          src: 'images/proj10/spread11.jpg',
           alt: 'sensory play',
           caption: 'sensory play',
         },
         {
-          src: 'images/proj10/spread12.png',
+          src: 'images/proj10/spread12.jpg',
           alt: 'lets talk tail',
           caption: 'lets talk tail',
         },
         {
-          src: 'images/proj10/spread13.png',
+          src: 'images/proj10/spread13.jpg',
           alt: 'lets talk tail',
           caption: 'lets talk tail',
         },
         {
-          src: 'images/proj10/spread14.png',
+          src: 'images/proj10/spread14.jpg',
           alt: 'spup parenting',
           caption: 'pup parenting',
         },
         {
-          src: 'images/proj10/spread15.png',
+          src: 'images/proj10/spread15.jpg',
           alt: 'pup parenting',
           caption: 'pup parenting',
         },
         {
-          src: 'images/proj10/spread16.png',
+          src: 'images/proj10/spread16.jpg',
           alt: 'references',
           caption: 'references',
         },
         {
-          src: 'images/proj10/spread17.png',
+          src: 'images/proj10/spread17.jpg',
           alt: 'get in touch',
           caption: 'get in touch',
         },
         {
-          src: 'images/proj10/spread18.png',
+          src: 'images/proj10/spread18.jpg',
           alt: 'various',
           caption: 'various',
         },
@@ -112,7 +112,7 @@ export const state = () => ({
     },
     {
       title: 'Catstycam',
-      thumb: 'images/proj9/s-tag2.png',
+      thumb: 'images/proj9/s-tag2.jpg',
       intro:
         'Brand/Identity Project',
       copy: `
@@ -122,62 +122,62 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj9/s-tag2.png',
+          src: 'images/proj9/s-tag2.jpg',
           alt: 'primary swing tag',
           caption: 'primary swing tag',
         },
         {
-          src: 'images/proj9/tag2.png',
+          src: 'images/proj9/tag2.jpg',
           alt: 'secondary swing tag',
           caption: 'secondary swing tag',
         },
         {
-          src: 'images/proj9/boxandpaper.png',
+          src: 'images/proj9/boxandpaper.jpg',
           alt: 'branded tissue paper',
           caption: 'tissue paper',
         },
         {
-          src: 'images/proj9/insertcard.png',
+          src: 'images/proj9/insertcard.jpg',
           alt: 'insert promotional card',
           caption: 'delivery insert promotional card',
         },
         {
-          src: 'images/proj9/bag.png',
+          src: 'images/proj9/bag.jpg',
           alt: 'branded shopping bag',
           caption: 'shopping bag',
         },
         {
-          src: 'images/proj9/box.png',
+          src: 'images/proj9/box.jpg',
           alt: 'mail order box',
           caption: 'mail order box',
         },
         {
-          src: 'images/proj9/women.png',
+          src: 'images/proj9/women.jpg',
           alt: 'departmental signage',
           caption: 'departmental signage',
         },
         {
-          src: 'images/proj9/men.png',
+          src: 'images/proj9/men.jpg',
           alt: 'departmental signage',
           caption: 'departmental signage',
         },
         {
-          src: 'images/proj9/insta1.png',
+          src: 'images/proj9/insta1.jpg',
           alt: 'social media - instagram',
           caption: 'social media - instagram',
         },
         {
-          src: 'images/proj9/insta2.png',
+          src: 'images/proj9/insta2.jpg',
           alt: 'social media - instagram',
           caption: 'social media - instagram',
         },
         {
-          src: 'images/proj9/web1.png',
+          src: 'images/proj9/web1.jpg',
           alt: 'website design',
           caption: 'website design',
         },
         {
-          src: 'images/proj9/web2.png',
+          src: 'images/proj9/web2.jpg',
           alt: 'website design',
           caption: 'website design',
         },
@@ -185,7 +185,7 @@ export const state = () => ({
     },
     {
       title: 'An Ode to Allonby',
-      thumb: 'images/proj8/cover.png',
+      thumb: 'images/proj8/cover.jpg',
       intro:
         'Editorial Project',
       copy: `
@@ -195,82 +195,82 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj8/cover.png',
+          src: 'images/proj8/cover.jpg',
           alt: 'cover',
           caption: 'cover',
         },
         {
-          src: 'images/proj8/s1.png',
+          src: 'images/proj8/s1.jpg',
           alt: 'intro',
           caption: 'introduction',
         },
         {
-          src: 'images/proj8/s2.png',
+          src: 'images/proj8/s2.jpg',
           alt: 'dedication',
           caption: 'dedication',
         },
         {
-          src: 'images/proj8/s3.png',
+          src: 'images/proj8/s3.jpg',
           alt: 'skinburness',
           caption: 'skinburness',
         },
         {
-          src: 'images/proj8/s4.png',
+          src: 'images/proj8/s4.jpg',
           alt: 'skinburness',
           caption: 'skinburness',
         },
         {
-          src: 'images/proj8/s5.png',
+          src: 'images/proj8/s5.jpg',
           alt: 'skinburness',
           caption: 'skinburness',
         },
         {
-          src: 'images/proj8/s6.png',
+          src: 'images/proj8/s6.jpg',
           alt: 'skinburness',
           caption: 'skinburness',
         },
         {
-          src: 'images/proj8/s7.png',
+          src: 'images/proj8/s7.jpg',
           alt: 'skinburness',
           caption: 'skinburness',
         },
         {
-          src: 'images/proj8/s8.png',
+          src: 'images/proj8/s8.jpg',
           alt: 'silloth',
           caption: 'silloth',
         },
         {
-          src: 'images/proj8/s9.png',
+          src: 'images/proj8/s9.jpg',
           alt: 'silloth',
           caption: 'silloth',
         },
         {
-          src: 'images/proj8/s10.png',
+          src: 'images/proj8/s10.jpg',
           alt: 'silloth',
           caption: 'silloth',
         },
         {
-          src: 'images/proj8/s11.png',
+          src: 'images/proj8/s11.jpg',
           alt: 'allonby',
           caption: 'allonby',
         },
         {
-          src: 'images/proj8/s12.png',
+          src: 'images/proj8/s12.jpg',
           alt: 'allonby',
           caption: 'allonby',
         },
         {
-          src: 'images/proj8/s13.png',
+          src: 'images/proj8/s13.jpg',
           alt: 'allonby',
           caption: 'allonby',
         },
         {
-          src: 'images/proj8/s14.png',
+          src: 'images/proj8/s14.jpg',
           alt: 'allonby',
           caption: 'allonby',
         },
         {
-          src: 'images/proj8/s15.png',
+          src: 'images/proj8/s15.jpg',
           alt: 'end',
           caption: 'end',
         },
@@ -278,7 +278,7 @@ export const state = () => ({
     },
     {
       title: 'Cans',
-      thumb: 'images/proj7/f5.png',
+      thumb: 'images/proj7/f5.jpg',
       intro:
         'Packaging Project',
       copy: `
@@ -288,27 +288,27 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj7/f1.png',
+          src: 'images/proj7/f1.jpg',
           alt: 'grapefriut flavour drink',
           caption: 'grapefruit',
         },
         {
-          src: 'images/proj7/f2.png',
+          src: 'images/proj7/f2.jpg',
           alt: 'original flavour drink',
           caption: 'original',
         },
         {
-          src: 'images/proj7/f3.png',
+          src: 'images/proj7/f3.jpg',
           alt: 'orange flavour drink',
           caption: 'orange',
         },
         {
-          src: 'images/proj7/f4.png',
+          src: 'images/proj7/f4.jpg',
           alt: 'lemon flavour drink',
           caption: 'lemon',
         },
         {
-          src: 'images/proj7/f5.png',
+          src: 'images/proj7/f5.jpg',
           alt: 'final can designs',
           caption: 'can designs',
         },
@@ -316,7 +316,7 @@ export const state = () => ({
     },
     {
       title: 'Daydream',
-      thumb: 'images/proj6/posters.png',
+      thumb: 'images/proj6/posters.jpg',
       intro:
         'Brand/Identity Project',
       copy: `
@@ -326,42 +326,42 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj6/logo1.png',
+          src: 'images/proj6/logo1.jpg',
           alt: 'brand logo',
           caption: 'logo',
         },
         {
-          src: 'images/proj6/logo2.png',
+          src: 'images/proj6/logo2.jpg',
           alt: 'brand logo',
           caption: 'logo',
         },
         {
-          src: 'images/proj6/card.png',
+          src: 'images/proj6/card.jpg',
           alt: 'business cards',
           caption: 'business cards',
         },
         {
-          src: 'images/proj6/stationery.png',
+          src: 'images/proj6/stationery.jpg',
           alt: 'stationery',
           caption: 'stationery',
         },
         {
-          src: 'images/proj6/pin.png',
+          src: 'images/proj6/pin.jpg',
           alt: 'pin',
           caption: 'pins',
         },
         {
-          src: 'images/proj6/apparel.png',
+          src: 'images/proj6/apparel.jpg',
           alt: 'apparel',
           caption: 'apparel',
         },
         {
-          src: 'images/proj6/programme.png',
+          src: 'images/proj6/programme.jpg',
           alt: 'programme',
           caption: 'programme',
         },
         {
-          src: 'images/proj6/posters.png',
+          src: 'images/proj6/posters.jpg',
           alt: 'posters',
           caption: 'posters',
         },
@@ -369,7 +369,7 @@ export const state = () => ({
     },
     {
       title: 'Codex, Kernel',
-      thumb: 'images/proj5/cover1.png',
+      thumb: 'images/proj5/cover1.jpg',
       intro:
         'Magazine Project',
       copy: `
@@ -379,52 +379,52 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj5/splash1.png',
+          src: 'images/proj5/splash1.jpg',
           alt: 'splash page',
           caption: 'splash page',
         },
         {
-          src: 'images/proj5/turn1.png',
+          src: 'images/proj5/turn1.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
         {
-          src: 'images/proj5/splash2.png',
+          src: 'images/proj5/splash2.jpg',
           alt: 'splash page',
           caption: 'splash page',
         },
         {
-          src: 'images/proj5/turn2.png',
+          src: 'images/proj5/turn2.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
         {
-          src: 'images/proj5/cover1.png',
+          src: 'images/proj5/cover1.jpg',
           alt: 'cover',
           caption: 'cover',
         },
         {
-          src: 'images/proj5/splash3.png',
+          src: 'images/proj5/splash3.jpg',
           alt: 'splash page',
           caption: 'splash page',
         },
         {
-          src: 'images/proj5/turn3.png',
+          src: 'images/proj5/turn3.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
         {
-          src: 'images/proj5/splash4.png',
+          src: 'images/proj5/splash4.jpg',
           alt: 'splash page',
           caption: 'splash page',
         },
         {
-          src: 'images/proj5/turn4.png',
+          src: 'images/proj5/turn4.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
         {
-          src: 'images/proj5/cover2.png',
+          src: 'images/proj5/cover2.jpg',
           alt: 'cover',
           caption: 'cover',
         },
@@ -432,7 +432,7 @@ export const state = () => ({
     },
     {
       title: 'Kernel',
-      thumb: 'images/proj4/kernel.png',
+      thumb: 'images/proj4/kernel.jpg',
       intro:
         'Digital Publishing Project',
       copy: `
@@ -444,32 +444,32 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj4/kernel.png',
+          src: 'images/proj4/kernel.jpg',
           alt: 'landing page',
           caption: 'landing page (video)',
         },
         {
-          src: 'images/proj4/timeline.png',
+          src: 'images/proj4/timeline.jpg',
           alt: 'timeline page',
           caption: 'timeline page',
         },
         {
-          src: 'images/proj4/pic1.png',
+          src: 'images/proj4/pic1.jpg',
           alt: 'film page',
           caption: 'film page',
         },
         {
-          src: 'images/proj4/pic2.png',
+          src: 'images/proj4/pic2.jpg',
           alt: 'film page',
           caption: 'film page - plot',
         },
         {
-          src: 'images/proj4/pic3.png',
+          src: 'images/proj4/pic3.jpg',
           alt: 'film page',
           caption: 'film page - cast',
         },
         {
-          src: 'images/proj4/pic4.png',
+          src: 'images/proj4/pic4.jpg',
           alt: 'film page',
           caption: 'film page - gallery',
         },
@@ -477,7 +477,7 @@ export const state = () => ({
     },
     {
       title: 'Infographic',
-      thumb: 'images/proj3/p111.png',
+      thumb: 'images/proj3/p111.jpg',
       intro:
         'Infographic Project',
       copy: `
@@ -489,72 +489,72 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj3/p1.png',
+          src: 'images/proj3/p1.jpg',
           alt: 'intro',
           caption: 'introduction screen',
         },
         {
-          src: 'images/proj3/p11.png',
+          src: 'images/proj3/p11.jpg',
           alt: 'introduction',
           caption: 'ntroduction screen',
         },
         {
-          src: 'images/proj3/p2.png',
+          src: 'images/proj3/p2.jpg',
           alt: 'members',
           caption: 'members screen',
         },
         {
-          src: 'images/proj3/p22.png',
+          src: 'images/proj3/p22.jpg',
           alt: 'members',
           caption: 'members screen',
         },
         {
-          src: 'images/proj3/p3.png',
+          src: 'images/proj3/p3.jpg',
           alt: 'stay',
           caption: 'stay screen',
         },
         {
-          src: 'images/proj3/p33.png',
+          src: 'images/proj3/p33.jpg',
           alt: 'stay',
           caption: 'stay screen',
         },
         {
-          src: 'images/proj3/p4.png',
+          src: 'images/proj3/p4.jpg',
           alt: 'slit',
           caption: 'split screen',
         },
         {
-          src: 'images/proj3/p44.png',
+          src: 'images/proj3/p44.jpg',
           alt: 'split',
           caption: 'split screen',
         },
         {
-          src: 'images/proj3/p55.png',
+          src: 'images/proj3/p55.jpg',
           alt: '26 years later...',
           caption: '26 years later screen',
         },
         {
-          src: 'images/proj3/p5.png',
+          src: 'images/proj3/p5.jpg',
           alt: '26 years later...',
           caption: '26 years later screen',
         },
         {
-          src: 'images/proj3/71.png',
+          src: 'images/proj3/71.jpg',
           alt: '2019 tour',
           caption: '2019 tour screen',
         },
         {
-          src: 'images/proj3/711.png',
+          src: 'images/proj3/711.jpg',
           alt: '2019 tour',
           caption: '2019 tour screen',
         },
         {
-          src: 'images/proj3/81.png',
+          src: 'images/proj3/81.jpg',
           alt: 'ride again',
           caption: 'ride again screen',
         },
         {
-          src: 'images/proj3/811.png',
+          src: 'images/proj3/811.jpg',
           alt: 'ride again',
           caption: 'ride again screen',
         },
@@ -562,7 +562,7 @@ export const state = () => ({
     },
     {
       title: 'Bike App',
-      thumb: 'images/proj2/app1.png',
+      thumb: 'images/proj2/app1.jpg',
       intro:
         'App Design Project',
       copy: `
@@ -572,22 +572,22 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj2/app1.png',
+          src: 'images/proj2/app1.jpg',
           alt: 'app design 1',
           caption: 'app design - landing page',
         },
         {
-          src: 'images/proj2/app2.png',
+          src: 'images/proj2/app2.jpg',
           alt: 'app design 1',
           caption: 'app design - product page',
         },
         {
-          src: 'images/proj2/app3.png',
+          src: 'images/proj2/app3.jpg',
           alt: 'app design 2',
           caption: 'app design - landing page',
         },
         {
-          src: 'images/proj2/app4.png',
+          src: 'images/proj2/app4.jpg',
           alt: 'iapp design 2',
           caption: 'dapp design - product page',
         },
@@ -595,7 +595,7 @@ export const state = () => ({
     },
     {
       title: 'Life on Mars',
-      thumb: 'images/proj1/mag1.png',
+      thumb: 'images/proj1/mag1.jpg',
       intro:
         'Magazine Project',
       copy: `
@@ -605,17 +605,17 @@ export const state = () => ({
       `,
       images: [
         {
-          src: 'images/proj1/mag1.png',
+          src: 'images/proj1/mag1.jpg',
           alt: 'splash page',
           caption: 'splash page',
         },
         {
-          src: 'images/proj1/mag2.png',
+          src: 'images/proj1/mag2.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
         {
-          src: 'images/proj1/mag3.png',
+          src: 'images/proj1/mag3.jpg',
           alt: 'turn page',
           caption: 'turn page',
         },
