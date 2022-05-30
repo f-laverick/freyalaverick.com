@@ -504,7 +504,7 @@ export const state = () => ({
     },
     {
       title: 'Infographic',
-      thumb: 'images/proj3/p111.jpg',
+      thumb: 'images/proj3/p1.jpg',
       intro:
         'Infographic Project',
       copy: `
