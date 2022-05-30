@@ -465,9 +465,8 @@ export const state = () => ({
         'Digital Publishing Project',
       copy: `
 <h3>Digital Publishing Project</h3>
-<p>A digital publishing project exploring the flexibility of a web based version of a magazine design. Working digitally allowed for a more interactive experience for the user.<br>
-<a href="https://freyalaverick.com/kernel/index.html">view project here</a>
-</p>
+<p>A digital publishing project exploring the flexibility of a web based version of a magazine design. Working digitally allowed for a more interactive experience for the user.</p>
+<p><a href="https://freyalaverick.com/projects/kernel" target="_blank">view project here</a> <small>(opens in new tab)</small></p>
 
       `,
       images: [
@@ -510,9 +509,8 @@ export const state = () => ({
         'Infographic Project',
       copy: `
 <h3>Infographic Project</h3>
-<p>An infographic project exploring the band 'Shakespears Sister', using html, css and beginning to explore animation.<br><br>
-<a href="https://freyalaverick.com/infographic/index.html">view infographic here</a>
-</p>
+<p>An infographic project exploring the band 'Shakespears Sister', using html, css and beginning to explore animation.</p>
+<p><a href="https://freyalaverick.com/projects/infographic" target="_blank">view infographic here</a> <small>(opens in new tab)</small></p>
 
       `,
       images: [

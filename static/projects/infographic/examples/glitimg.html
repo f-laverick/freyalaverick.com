@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styyle.css">
+</head>
+
+<body>
+
+  <div id="paralax">
+    <div class="parallax">
+      <div class="fixed">SCROLL DOWN</div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="starfield">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--back2">
+        <div class="starfield">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--back3">
+        <div class="starfield">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="starfield">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>    
+    </div>
+
+    <div class="parallax-one">
+
+      <script type="text/javascript" src="sticky.js"></script>
+    </div>
+
+
+    <div class="header-bg">
+      <h2>Change Opacity</h2>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            $('.header-bg').css("opacity", 1 - $(window).scrollTop()/1300)
+          })
+        })
+      </script>
+    </div>
+
+
+
+
+
+  </div>
+
+
+  
+</body>
+
+</html>

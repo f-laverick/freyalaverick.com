@@ -1,15 +1,17 @@
 <template>
   <div v-if="project" class="portfolio-project content">
-    <div class="intro">
-      <h1 class="title">{{ project.title }}</h1>
-      <div v-html="project.copy" class="copy" />
+    <div class="intro columns">
+      <div class="column">
+        <h1 class="title">{{ project.title }}</h1>
+        <p><NuxtLink to="/portfolio">Back to portfolio</NuxtLink></p>
+      </div>
+      <div v-html="project.copy" class="copy column" />
     </div>
     <div class="images">
       <project-image
         v-for="(image, index) in project.images"
         :key="`project-${slug}-image-${index}`"
         :image="image"
-        :class="imageClass(index)"
       />
     </div>
   </div>
@@ -46,21 +48,6 @@ export default {
           project.title === this.slug ||
           encodeURIComponent(project.title) === this.slug
       );
-    },
-  },
-
-  methods: {
-    imageClass(index) {
-      if (index % 2 === 0) {
-        this.rowCount++;
-      }
-      let classes = [`image-${index}`];
-      if (this.rowCount % 2) {
-        classes.push(index % 2 ? 'rowa-img2' : 'rowa-img1');
-      } else {
-        classes.push(index % 2 ? 'rowb-img2' : 'rowb-img1');
-      }
-      return classes.join(' ');
     },
   },
 };
