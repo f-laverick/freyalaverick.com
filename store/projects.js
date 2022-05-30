@@ -1,7 +1,34 @@
 export const state = () => ({
   current: null,
   projects: [
+    {
+      title: 'Explore Ullswater',
+      thumb: 'images/proj11/leaf1.jpg',
+      intro:
+        'Editorial Project',
+      copy: `
+<h3>Editorial Project</h3>
+<p>A 3 fold tourist information leaflet advertising Ullswater and the surrounding attractions.</p>
 
+      `,
+      images: [
+        {
+          src: 'images/proj11/leaf1.jpg',
+          alt: 'leaflet cover',
+          caption: 'leaflet cover',
+        },
+        {
+          src: 'images/proj11/leaflet2.jpg',
+          alt: 'leaflet front',
+          caption: 'leaflet front',
+        },
+        {
+          src: 'images/proj11/leaflet1.jpg',
+          alt: 'leaflet reverse',
+          caption: 'leaflet reverse',
+        },
+      ],
+    },
     {
       title: 'Call to Care',
       thumb: 'images/proj10/cover3.jpg',
@@ -117,7 +144,8 @@ export const state = () => ({
         'Brand/Identity Project',
       copy: `
 <h3>Brand/Identity Project</h3>
-<p>An identity for an outdoor brand based in the Ullswater Valley, aimed towards people who are interested and enjoy being outside. This colour scheme correlates to the season of summer.</p>
+<p>An identity for an outdoor brand based in the Ullswater Valley, aimed towards people who are interested and enjoy being outside. This colour scheme correlates to the season of summer.</p><br>
+<a href="https://indd.adobe.com/view/d65a4a24-05d9-4350-977a-17be01574120">view brand guidelines here</a>
 
       `,
       images: [
