@@ -2,6 +2,33 @@ export const state = () => ({
   current: null,
   projects: [
     {
+      title: 'Explore Ullswater',
+      thumb: 'images/proj11/front.jpg',
+      intro: 'Editorial Project',
+      copy: `
+<h3>Editorial Project</h3>
+<p>A 3 fold tourist information leaflet about Ullswater. Aimed towards people just discovering the area; looking for a place to stay or somewhere to eat.</p>
+
+      `,
+      images: [
+        {
+          src: 'images/proj11/front.jpg',
+          alt: 'cover',
+          caption: 'outside',
+        },
+        {
+          src: 'images/proj11/leaflet1.jpg',
+          alt: 'outer',
+          caption: 'outer',
+        },
+        {
+          src: 'images/proj11/leaflet2.jpg',
+          alt: 'inner',
+          caption: 'inner',
+        },
+      ],
+    },
+    {
       title: 'Call to Care',
       thumb: 'images/proj10/cover3.jpg',
       intro: 'Editorial Project',
@@ -485,7 +512,7 @@ export const state = () => ({
         {
           src: 'images/proj3/p11.jpg',
           alt: 'introduction',
-          caption: 'ntroduction screen',
+          caption: 'introduction screen',
         },
         {
           src: 'images/proj3/p2.jpg',
