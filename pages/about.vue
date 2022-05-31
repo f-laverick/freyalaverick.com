@@ -16,7 +16,7 @@
               Interested in working together? Drop me an email!
             </p>
             <p>
-              <a href="mailto:fldesigns53@gmail.com">fldesigns53@gmail.com</a>
+              <a href="mailto:fl.designs22@gmail.com">fl.designs22@gmail.com</a>
             </p>
           </div>
         </div>
