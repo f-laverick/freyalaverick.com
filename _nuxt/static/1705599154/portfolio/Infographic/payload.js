@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/portfolio/Infographic", {data:[{}],fetch:{},mutations:[]});
