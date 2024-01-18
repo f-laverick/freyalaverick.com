@@ -494,89 +494,6 @@ export const state = () => ({
       ],
     },
     {
-      title: 'Infographic',
-      thumb: 'images/proj3/p1.jpg',
-      intro: 'Infographic Project',
-      copy: `
-<h3>Infographic Project</h3>
-<p>An infographic project exploring the band 'Shakespears Sister', using html, css and beginning to explore animation.</p>
-<p><a href="https://freyalaverick.com/projects/infographic" target="_blank">view infographic here</a> <small>(opens in new tab)</small></p>
-
-      `,
-      images: [
-        {
-          src: 'images/proj3/p1.jpg',
-          alt: 'intro',
-          caption: 'introduction screen',
-        },
-        {
-          src: 'images/proj3/p11.jpg',
-          alt: 'introduction',
-          caption: 'introduction screen',
-        },
-        {
-          src: 'images/proj3/p2.jpg',
-          alt: 'members',
-          caption: 'members screen',
-        },
-        {
-          src: 'images/proj3/p22.jpg',
-          alt: 'members',
-          caption: 'members screen',
-        },
-        {
-          src: 'images/proj3/p3.jpg',
-          alt: 'stay',
-          caption: 'stay screen',
-        },
-        {
-          src: 'images/proj3/p33.jpg',
-          alt: 'stay',
-          caption: 'stay screen',
-        },
-        {
-          src: 'images/proj3/p4.jpg',
-          alt: 'slit',
-          caption: 'split screen',
-        },
-        {
-          src: 'images/proj3/p44.jpg',
-          alt: 'split',
-          caption: 'split screen',
-        },
-        {
-          src: 'images/proj3/p55.jpg',
-          alt: '26 years later...',
-          caption: '26 years later screen',
-        },
-        {
-          src: 'images/proj3/p5.jpg',
-          alt: '26 years later...',
-          caption: '26 years later screen',
-        },
-        {
-          src: 'images/proj3/71.jpg',
-          alt: '2019 tour',
-          caption: '2019 tour screen',
-        },
-        {
-          src: 'images/proj3/711.jpg',
-          alt: '2019 tour',
-          caption: '2019 tour screen',
-        },
-        {
-          src: 'images/proj3/81.jpg',
-          alt: 'ride again',
-          caption: 'ride again screen',
-        },
-        {
-          src: 'images/proj3/811.jpg',
-          alt: 'ride again',
-          caption: 'ride again screen',
-        },
-      ],
-    },
-    {
       title: 'Bike App',
       thumb: 'images/proj2/app1.jpg',
       intro: 'App Design Project',
@@ -605,33 +522,6 @@ export const state = () => ({
           src: 'images/proj2/app4.jpg',
           alt: 'iapp design 2',
           caption: 'dapp design - product page',
-        },
-      ],
-    },
-    {
-      title: 'Life on Mars',
-      thumb: 'images/proj1/mag1.jpg',
-      intro: 'Magazine Project',
-      copy: `
-<h3>Magazine Design</h3>
-<p>A magazine design project exploring contrast and negative space. Splash and turn pages with a feature article called 'Life on Mars'. </p>
-
-      `,
-      images: [
-        {
-          src: 'images/proj1/mag1.jpg',
-          alt: 'splash page',
-          caption: 'splash page',
-        },
-        {
-          src: 'images/proj1/mag2.jpg',
-          alt: 'turn page',
-          caption: 'turn page',
-        },
-        {
-          src: 'images/proj1/mag3.jpg',
-          alt: 'turn page',
-          caption: 'turn page',
         },
       ],
     },
